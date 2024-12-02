@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>电子流系统 电脑端(动态交互)</title>
+</head>
+<body>
+
+
+
+
+
+
+    <div id="main">
+        <div id="admin">
+            <div>超级管理员</div>
+            <div id="admin_main">
+                <video controls loop class="admin">
+                    <source src="./rc_admin.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+        <div id="users">
+            <div>普通用户</div>
+            <div id="users_main">
+                <video controls loop class="users">
+                    <source src="./rc_users.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+    </div>
+
+
+
+<script>
+alert("加载完成后，点击视频画面左下方播放按钮")
+    
+</script>
+
+<style>
+    
+    #admin{
+        text-align: center;
+        #admin_main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .admin{
+                width:1100px
+            }
+        }
+    }
+    #users{
+        margin-top:50px;
+        text-align: center;
+        #users_main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .users{
+                width:1100px
+            }
+        }
+    }
+</style>
+
+</body>
+</html>
